@@ -1,5 +1,4 @@
 from data_functions import *
-import os
 
 crimson_witch_of_flames = readInts("numbers.txt")
 
@@ -31,5 +30,5 @@ print("====== findMode ======")
 print("Mode:", findMode(crimson_witch_of_flames))
 print()
 
-print(os.environ["YAE_MIKO"])
-print(os.environ["YOUSIF"])
+print("Stop copying my code you dummy")
+print("Yousif was here")

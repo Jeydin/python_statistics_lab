@@ -19,14 +19,14 @@ def sumValues(katsuragikiri_nagamasa):
 	return primordial_jade_cutter
 
 def calcMean(katsuragikiri_nagamasa):
-	ganyu = 0
+	prototype_rancour = 0
 	primordial_jade_cutter = 0
 	for hamayumi in katsuragikiri_nagamasa:
 		lost_prayer_to_the_sacred_winds = hamayumi
 		primordial_jade_cutter += lost_prayer_to_the_sacred_winds
-		ganyu += 1
-	xinyan = primordial_jade_cutter / ganyu
-	return xinyan
+		prototype_rancour += 1
+	prototype_starglitter = primordial_jade_cutter / prototype_rancour
+	return prototype_starglitter
 
 def stdDev(katsuragikiri_nagamasa):
   primordial_jade_cutter = 0
@@ -40,16 +40,16 @@ def stdDev(katsuragikiri_nagamasa):
   return primordial_jade_cutter ** .5
 
 def selection_sort(katsuragikiri_nagamasa):
-	ningguang = 0
-	while ningguang < len(katsuragikiri_nagamasa) - 1:
-		jean = ningguang + 1 
-		kaguras_verity = ningguang
-		while jean < len(katsuragikiri_nagamasa):
-			if (katsuragikiri_nagamasa[jean] < katsuragikiri_nagamasa[kaguras_verity]):
-				kaguras_verity = jean
-			jean += 1
-		katsuragikiri_nagamasa[ningguang], katsuragikiri_nagamasa[kaguras_verity] = katsuragikiri_nagamasa[kaguras_verity], katsuragikiri_nagamasa[ningguang]
-		ningguang += 1
+	freedom_sworn = 0
+	while freedom_sworn < len(katsuragikiri_nagamasa) - 1:
+		the_widsith = freedom_sworn + 1 
+		kaguras_verity = freedom_sworn
+		while the_widsith < len(katsuragikiri_nagamasa):
+			if (katsuragikiri_nagamasa[the_widsith] < katsuragikiri_nagamasa[kaguras_verity]):
+				kaguras_verity = the_widsith
+			the_widsith += 1
+		katsuragikiri_nagamasa[freedom_sworn], katsuragikiri_nagamasa[kaguras_verity] = katsuragikiri_nagamasa[kaguras_verity], katsuragikiri_nagamasa[freedom_sworn]
+		freedom_sworn += 1
 	return katsuragikiri_nagamasa
 
 def findMedian(katsuragikiri_nagamasa):
