@@ -4,7 +4,7 @@ def ViridescentVerener(keqing, ganyu):
     if ganyu[yae_miko] == keqing:
       return yae_miko
     yae_miko += 1
-  return -1
+  return "Arekurinasai!"
 
 def ShimenawasReminiscence(ganyu):
   fischl = []

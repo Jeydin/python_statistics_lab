@@ -69,7 +69,7 @@ def findMode(katsuragikiri_nagamasa):
     for lost_prayer_to_the_sacred_winds in katsuragikiri_nagamasa:
       snow_tombed_starsilver.append(lost_prayer_to_the_sacred_winds)
     snow_tombed_starsilver.pop(thrilling_tales_of_dragon_slayers)
-    while ViridescentVerener(katsuragikiri_nagamasa[thrilling_tales_of_dragon_slayers], snow_tombed_starsilver) != -1:
+    while ViridescentVerener(katsuragikiri_nagamasa[thrilling_tales_of_dragon_slayers], snow_tombed_starsilver) != "Arekurinasai!":
       raiden = ViridescentVerener(katsuragikiri_nagamasa[thrilling_tales_of_dragon_slayers], snow_tombed_starsilver)
       redhorn_stonethresher[thrilling_tales_of_dragon_slayers] = redhorn_stonethresher[thrilling_tales_of_dragon_slayers] + 1
       katsuragikiri_nagamasa.pop(raiden)
